@@ -1,0 +1,50 @@
+/* Custom fonts */
+@font-face {
+    font-family: 'Tungsten-Medium';
+    src: url('../fonts/Tungsten-Medium.ttf');
+}
+@font-face {
+    font-family: 'Tungsten-Semibold';
+    src: url('../fonts/Tungsten-Semibold.ttf');
+}
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../fonts/Avenir-Light.ttf');
+}
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('../fonts/Avenir-Medium.ttf');
+}
+@font-face {
+    font-family: 'Avenir-Oblique';
+    src: url('../fonts/Avenir-Oblique.ttf');
+}
+@font-face {
+    font-family: 'Misses';
+    src: url('../fonts/Misses.ttf');
+}
+@font-face {
+    font-family: 'Beyond';
+    src: url('../fonts/BeyondTheMountains.ttf');
+}
+.tugsten-medium {
+    font-family: 'Tungsten-Medium';
+}
+.tugsten-semibold {
+    font-family: 'Tungsten-Semibold';
+}
+.avenir-light {
+    font-family: 'Avenir-Light';
+}
+.avenir-medium {
+    font-family: 'Avenir-Medium';
+}
+.avenir-oblique {
+    font-family: 'Avenir-Oblique';
+}
+.misses {
+    font-family: 'Misses';
+}
+.beyond {
+    font-family: 'Beyond';
+}

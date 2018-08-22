@@ -1,0 +1,179 @@
+/* Material Design Lite Editado */
+
+@media screen and (max-width: 1024px) {
+    .mdl-layout__header-row .mdl-navigation {
+        height: 56px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mdl-layout__header {
+        display: inline-block !important;
+    }
+    .mdl-layout__title.tugsten-semibold {
+        margin: 0;
+        font-size: 30px;
+        padding-left: 16px !important;
+    }
+    .mdl-layout__subtitle.beyond {
+        padding-left: 16px !important;
+    }
+    .hashtag {
+        font-size: 1.5rem;
+    }
+}
+
+.mdl-layout__header {
+    background-color: #fafafa !important;
+    color: #212121 !important;
+}
+
+.mdl-layout-icon {
+    color: #212121 !important;
+}
+
+.mdl-navigation__link.tugsten-medium {
+    color: #212121 !important;
+}
+
+.mdl-layout__title.tugsten-semibold {
+    margin: 0;
+    font-size: 40px;
+    padding-left: 16px;
+    padding-right: 40px;
+    color: #084A5E;
+}
+.mdl-layout__title.tugsten-medium.sidebar {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #084A5E;
+}
+.mdl-layout__drawer > .mdl-layout__title, .mdl-layout__drawer > .mdl-layout-title {
+    line-height: 40px !important;
+    padding-left: 40px;
+}
+
+.mdl-layout__title.tugsten-semibold.sidebar {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    padding: 0;
+    margin-top: 64px;
+    color: #084A5E;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1.mdl-layout__title.tugsten-semibold span {
+    color: #0081AC;
+}
+
+h1.mdl-layout__title.tugsten-semibold.sidebar span {
+    color: #0081AC;
+}
+
+.mdl-layout__subtitle.beyond {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    color: #0081AC;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.mdl-layout__drawer-button>i {
+    color: #0081AC;
+}
+footer {
+    background-color: #0081AC;
+    padding: 0%;
+    text-align: center !important;
+}
+footer > div > h1 {
+    margin: 0;
+}
+.footer-text {
+    color: #fafafa;
+}
+footer > div > h4.tugsten-medium {
+    margin: 0;
+}
+.mdl-layout__drawer.is-visible {
+    background-color: #fff !important;
+    background: url('/images/guayacan.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*  */
+.hashtag {
+    font-family: 'Beyond';
+    color: #fff;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+img.sidebar-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 64px;
+}
+
+div.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    /* text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+div.hashtag-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*  */
+
+div.banner {
+    position: relative;
+    text-align: center;
+}
+
+div.banner div.banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
+div.banner div.primary-wrapper {
+    position: relative;
+    padding-top: 10%;
+}
+/* Fotter */
+.bg-grey {
+    height: 30px;
+    background: #322931;
+}
+img.footer-img {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    width: auto;
+    bottom: -15px;
+    z-index: 100;
+}
+div.parent {
+    position: relative;
+}
