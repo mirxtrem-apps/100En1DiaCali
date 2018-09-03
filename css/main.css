@@ -227,7 +227,7 @@ div.banner div.banner-overlay {
     bottom: 0;
     left: 0;
     z-index: 200;
-    background-color: rgba(19, 46, 54, 0.5);
+    background-color: rgba(19, 46, 54, 0.8);
 }
 div.banner-overlay div.mdl-cell {
     position: absolute;
@@ -275,3 +275,28 @@ h5.footer-secondary {
     background:
       url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
   }
+  /* Cuenta Regresiva */
+  ul.countdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    }
+    ul.countdown li {
+    display: inline-block;
+    }
+    ul.countdown li span {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    }
+    ul.countdown li.seperator {
+    font-size: 80px;
+    line-height: 70px;
+    vertical-align: top;
+    }
+    ul.countdown li p {
+    color: #a7abb1;
+    font-size: 14px;
+    }
