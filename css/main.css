@@ -182,21 +182,6 @@ img.sidebar-img {
     height: auto;
     margin-top: 64px;
 }
-
-div.overlay {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    color: #fff;
-    /* text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-
 div.hashtag-container {
     width: 100%;
     display: flex;
@@ -215,10 +200,10 @@ div.hashtag-container {
 div.banner {
     position: relative;
     text-align: center;
-    /* background-image: url(../images/banner.jpg);
+    background-image: url(../images/banner_100.png);
     background-repeat: no-repeat;
-    background-size: cover; */
-    height: 100%;
+    background-size: cover;
+    height: 100vh;
 }
 div.banner div.banner-overlay {
     position: absolute;
@@ -229,9 +214,9 @@ div.banner div.banner-overlay {
     z-index: 200;
     background-color: rgba(19, 46, 54, 0.8);
 }
-div.banner-overlay div.mdl-cell {
+div.banner-overlay div.mdl-grid {
     position: absolute;
-    top: 25%;
+    top: 5%;
     right: 0;
     left: 0;
     margin: 0 auto;
@@ -297,6 +282,21 @@ h5.footer-secondary {
     vertical-align: top;
     }
     ul.countdown li p {
-    color: #a7abb1;
+    color: #fff;
     font-size: 14px;
+    }
+    /* boton */
+    .boton {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        text-align: justify;
+        margin: auto;
+    }
+    .boton h1 {
+        line-height: 5px;
+        text-align: center;
+        transform: rotate(-10deg);
+        color: #fff;
+        padding-top: 35px;
     }
