@@ -59,7 +59,8 @@
             <div class="mdl-grid white-text banner">
                 <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--1-offset-desktop mdl-cell--12-col-phone">
                     <h1 style="line-height:40px; margin-bottom:0; text-align: center" class="beyond white-text shadow">!Cali<br><small>ya
-                            viene</small></h1>
+                            viene
+                        </small></h1>
                     <h1 style="margin-top:0;text-align: center" class="tugsten-semibold white-text shadow">Gran Día!</h1>
                     <div style="box-shadow:5px 10px 15px rgba(0,0,0,.3)" class="boton bg-accent-dark">
                         <h1 class="tugsten-semibold">20<small> de <br>Octubre</small></h1>
@@ -170,9 +171,32 @@
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet ">
                     <img style="border-radius:8px" width="100%" src="images/motor.png" alt="">
                 </div>
-                <div class="mdl-cell mdl-cell--5-col mdl-cell--6-col-tablet ">
-                    <h1 style="text-align:center; line-height: 40px" class="tugsten-semibold ">Sé parte del equipo motor<br><small>¿Cómo puedes participar?</small></h1>
-                    <p style="text-align:justify " class="avenir-light "></p>
+                <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet ">
+                    <h1 style="line-height:40px" class="tugsten-semibold ">Sé parte del equipo motor<br><small>¿Cómo puedes
+                            participar?</small></h1>
+                    <p style="text-align:justify;font-size:16px;" class="avenir-light gray-text">Envíanos un mensaje y te contactaremos pronto</p>
+                    <form id="formulario" style="text-align:left" action="#" method="POST">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="text" name="nombre" id="nombre">
+                            <label class="mdl-textfield__label avenir-light" for="nombre">Nombre</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="email" name="email" id="email">
+                            <label class="mdl-textfield__label avenir-light" for="email">Correo</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <textarea class="mdl-textfield__input" type="text" rows="3" id="mensaje" name="mensaje"></textarea>
+                            <label class="mdl-textfield__label avenir-light" for="mensaje">Mensaje</label>
+                        </div>
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                            <span style="font-size:16px;" class="mdl-radio__label avenir-light">Acepto el tratamiento de mis datos personales.</span>
+                        </label><br><br>
+                        <button type="submit" id="enviar" target="_blank " style="font-size:20px;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-accent-dark white-text tugsten-semibold
+                         space-letter ">
+                            Enviar
+                        </button>
+                    </form>
                 </div>
             </div>
             <!-- Footer -->
