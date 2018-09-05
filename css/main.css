@@ -200,10 +200,9 @@ div.hashtag-container {
 div.banner {
     position: relative;
     text-align: center;
-    background-image: url(../images/banner_100.png);
+    background-image: url(../images/global.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 div.banner div.banner-overlay {
     position: absolute;
@@ -272,18 +271,18 @@ h5.footer-secondary {
     display: inline-block;
     }
     ul.countdown li span {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 300;
     line-height: 80px;
     }
     ul.countdown li.seperator {
-    font-size: 80px;
+    font-size: 90px;
     line-height: 70px;
     vertical-align: top;
     }
     ul.countdown li p {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     }
     /* boton */
     .boton {
