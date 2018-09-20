@@ -17,17 +17,17 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout">
+    <div class="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
         <header class="mdl-layout__header">
             <div class="mdl-layout-icon"></div>
             <div class="mdl-layout__header-row">
                 <img width="64" src="/logo-cali.png" alt="100En1Día">
                 <h1 class="mdl-layout__title tugsten-semibold">100<span>en</span>1<span>día</span>&#32;Cali</h1>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link tugsten-medium" href="#100en1dia">¿Qué es 100En1Día?</a>
+                    <a class="mdl-navigation__link tugsten-medium selected" href="#100en1dia">¿Qué es 100En1Día?</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#talleres">Talleres Creatorios</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#motor">Equipo Motor</a>
-                    <a class="mdl-navigation__link tugsten-medium" href="#">Noticias y eventos</a>
+                    <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a>
                     <a class="mdl-navigation__link tugsten-medium mdl" href="#">Agenda</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#">Contacto</a>
                 </nav>
@@ -38,16 +38,16 @@
             <!-- <img class="sidebar-img" src="/images/100En1DíaCali.png" alt="100En1Día"> -->
             <h1 class="mdl-layout__title tugsten-semibold sidebar">100<span>en</span>1<span>día</span></h1>
             <h1 class="mdl-layout__title tugsten-medium sidebar">Cali • 2018</h1>
-            <p class="mdl-layout__subtitle beyond">#moveteporcali</p>
+            <p class="mdl-layout__subtitle misses">#moveteporcali</p>
             <nav class="mdl-navigation">
 
-                <a class="mdl-navigation__link tugsten-medium" href="#100en1dia">¿Qué es 100En1Día?</a>
+                <a class="mdl-navigation__link tugsten-medium selected" href="#100en1dia">¿Qué es 100En1Día?</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#talleres">Talleres Creatorios</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#motor">Equipo Motor</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#">Agenda</a>
                 <hr>
-                <a class="mdl-navigation__link tugsten-medium" href="#">Noticias y eventos</a>
-                <!-- <a class="mdl-navigation__link tugsten-medium" href="#">Tienda -Proximamente!</a> -->
+                <!-- <a class="mdl-navigation__link tugsten-medium" href="#">Noticias y eventos</a> -->
+                <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#">Contacto</a>
             </nav>
             <div>
@@ -65,7 +65,7 @@
                     <div style="box-shadow:5px 10px 15px rgba(0,0,0,.3)" class="boton bg-accent-dark">
                         <h1 class="tugsten-semibold">20<small> de <br>Octubre</small></h1>
                     </div>
-                    <h2 style="text-align: center" class="beyond white-text shadow">#MovetePorCali</h2>
+                    <h2 style="text-align: center" class="misses white-text shadow">#MovetePorCali</h2>
                 </div>
                 <div class="mdl-cell mdl-cell--5-col-desktop mdl-cell--12-col-phone">
                     <iframe id="foo" src="https://docs.google.com/forms/d/e/1FAIpQLSerzzYCxxejanbHO8zf88acKDMyudXzS6nQEgGjyLfLO93Anw/viewform?embedded=true
@@ -171,10 +171,12 @@
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet ">
                     <img style="border-radius:8px" width="100%" src="images/motor.png" alt="">
                 </div>
-                <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet ">
+                <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col mdl-cell--6-col-tablet ">
                     <h1 style="line-height:40px" class="tugsten-semibold ">Sé parte del equipo motor<br><small>¿Cómo puedes
-                            participar?</small></h1>
-                    <p style="text-align:justify;font-size:16px;" class="avenir-light gray-text">Envíanos un mensaje y te contactaremos pronto</p>
+                            participar?
+                        </small></h1>
+                    <p style="text-align:justify;font-size:16px;" class="avenir-light gray-text">¿Cuáles son tus habilidades?
+                        Escríbenos y juntos buscaremos un comité en donde nos puedes ayudar.</p>
                     <form id="formulario" style="text-align:left" action="#" method="POST">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <input class="mdl-textfield__input" type="text" name="nombre" id="nombre">
@@ -187,16 +189,17 @@
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                             <textarea class="mdl-textfield__input" type="text" rows="3" id="mensaje" name="mensaje"></textarea>
                             <label class="mdl-textfield__label avenir-light" for="mensaje">Mensaje</label>
-                        </div>
-                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-                            <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-                            <span style="font-size:16px;" class="mdl-radio__label avenir-light">Acepto el tratamiento de mis datos personales.</span>
+                        </div><br>
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="aceptar">
+                            <input type="checkbox" id="aceptar" name="aceptar" class="mdl-checkbox__input">
+                            <span style="font-size:16px;" class="mdl-checkbox__label avenir-light">Acepto el tratamiento de
+                                mis datos personales.</span>
                         </label><br><br>
-                        <button type="submit" id="enviar" target="_blank " style="font-size:20px;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-accent-dark white-text tugsten-semibold
-                         space-letter ">
-                            Enviar
-                        </button>
                     </form>
+                    <button type="submit" id="enviar" style="font-size:20px;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-accent-dark white-text tugsten-semibold
+                     space-letter ">
+                        Enviar
+                    </button>
                 </div>
             </div>
             <!-- Footer -->
@@ -234,14 +237,48 @@
     <script defer src="/js/material.min.js "></script>
     <script type="text/javascript " src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js "></script>
     <script type="text/javascript " src="js/jquery.downCount.js "></script>
+    <!-- Cuenta Regresiva -->
     <script class="source " type="text/javascript ">
         $('.countdown').downCount({
-            date: '10/20/2018 12:00:00',
+            date: '10/20/2018 00:00:00',
             offset: +10
         }, function () {
             alert('WOOT WOOT, done!');
         });
     </script>
+    <!--Enviar correo-->
+    <script>
+        $("#enviar").click(function () {
+            if ($("#nombre").val() == "" || $("#email").val() == "" || $("#mensaje").val() == "") {
+                swal('¡Hay campos vacios!','Los campos nombre, correo electrónico y mensaje, son obligatorios.','info');
+            } else {
+                if ($("#formulario input[name='aceptar']:checkbox").is(':checked')) {
+                    console.log('acepto!');
+                    $("#autorizacion").val('Acepto y autorizo a <strong>100En1Día Cali</strong> el tratamiento de mis datos personales.');
+                    var datos = new FormData(document.getElementById("formulario"));
+
+                    $.ajax({
+                        url: "enviarCorreo.php",
+                        type: "POST",
+                        dataType: "HTML",
+                        data: datos,
+                        cache: false,
+                        contentType: false,
+                        processData: false
+                    }).done(function (e) {
+                        swal("Mensaje enviado!",'Gracias por escribirnos, nos podremos en contacto con usted a la mayor brevedad.',"success");
+                        document.getElementById("nombre").value = "";
+                        document.getElementById("email").value = "";
+                        document.getElementById("mensaje").value = "";
+                    });
+                } else {
+                    console.log('No acepto!');
+                    swal('¡Importante!','Debes aceptar el tratamiento de tus datos personales.','info');
+                }
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
