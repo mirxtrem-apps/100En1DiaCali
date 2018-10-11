@@ -9,8 +9,6 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-        crossorigin="" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/css/fonts.css">
     <!-- Local -->
@@ -29,12 +27,11 @@
                     <h1 class="mdl-layout__title tugsten-semibold">100<span>en</span>1<span>día</span>&#32;Cali</h1>
                 </a>
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link tugsten-medium" href="#100en1dia">¿Qué es 100En1Día?</a>
+                    <a class="mdl-navigation__link tugsten-medium selected" href="#100en1dia">¿Qué es 100En1Día?</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#mapa">Mapa de Acciones</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#talleres">Talleres Creatorios</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#motor">Equipo Motor</a>
-                    <a class="mdl-navigation__link tugsten-medium" href="pintalave.html">#PintalaVé</a>
-                    <!-- <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a> -->
+                    <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a>
                     <a class="mdl-navigation__link tugsten-medium" href="#">Contacto</a>
                 </nav>
                 <div class="mdl-layout-spacer"></div>
@@ -47,13 +44,13 @@
             <p class="mdl-layout__subtitle misses">#MovetePorCali</p>
             <nav class="mdl-navigation">
 
-                <a class="mdl-navigation__link tugsten-medium" href="#100en1dia">¿Qué es 100En1Día?</a>
+                <a class="mdl-navigation__link tugsten-medium selected" href="#100en1dia">¿Qué es 100En1Día?</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#mapa">Mapa de Acciones</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#talleres">Talleres Creatorios</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#motor">Equipo Motor</a>
                 <hr>
-                <a class="mdl-navigation__link tugsten-medium" href="pintalave.html">#PintalaVé</a>
-                <!-- <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a> -->
+                <!-- <a class="mdl-navigation__link tugsten-medium" href="#">Noticias y eventos</a> -->
+                <a class="mdl-navigation__link tugsten-medium" href="tienda.html">Tienda</a>
                 <a class="mdl-navigation__link tugsten-medium" href="#">Contacto</a>
             </nav>
             <div>
@@ -110,18 +107,13 @@
                 <br>
                 <div id="100en1dia" class="header-title"></div>
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet va-center">
-                    <div class="text-center">
+                    <div>
                         <h1 style="text-align:center; " class="tugsten-semibold ">¿Qué es 100en1día?</h1>
-                        <p style="text-align:justify " class="avenir-light "><b>100en1día</b>es un festival/carnaval
-                            ciudadano, que, al llegar a cada ciudad, se queda como un
-                            día de celebración anual de la ciudadanía actva y de la partcipación ciudadana, manifestado
-                            en 100 o más acciones urbanas que buscan transformar la ciudad.</p>
-                        <a href="cienenundia.html" target="_blank " style="font-size:20px;
-                            "
-                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-accent white-text tugsten-semibold
-                            space-letter">
-                            Conoce más!
-                        </a>
+                        <p style="text-align:justify " class="avenir-light "><b>100en1día</b> es un movimiento
+                            ciudadano global
+                            que reune 100 o más intervenciones en un día para visibilizarlas, creando un modelo de
+                            transformación
+                            social que busca ser difundido, adaptado y utilizado en todo el mundo.</p>
                     </div>
                 </div>
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col mdl-cell--6-col-tablet va-center">
@@ -135,42 +127,68 @@
                     <div id="map"></div>
                 </div>
             </div>
+            <!-- Ten en cuenta...
+            <div class="mdl-grid bg-accent-dark white-text ">
+                <br>
+                <div id="" class="header-title "></div>
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet ">
+                    <h1 style="text-align:center " class="tugsten-semibold ">Ten en cuenta que...</h1>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone bg-primary-dark border-card ">
+                    <h1 style="font-size:5rem; " class="tugsten-semibold text-center ">NO</h1>
+                    <h3 class="tugsten-medium text-center ">somos un partido político</h3>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone bg-primary-dark border-card ">
+                    <h1 style="font-size:5rem; " class="tugsten-semibold text-center ">NO</h1>
+                    <h3 class="tugsten-medium text-center ">es permitido el uso de proselitismo dentro o fuera del proyecto</h3>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone bg-primary-dark border-card ">
+                    <h1 style="font-size:5rem; " class="tugsten-semibold text-center ">NO</h1>
+                    <h3 class="tugsten-medium text-center ">apoyamos el asistencialismo</h3>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone bg-custom-light border-card ">
+                    <h1 style="font-size:5rem; " class="tugsten-semibold text-center accent-dark-text ">SÍ</h1>
+                    <h3 class="tugsten-medium text-center primary-dark-text ">Buscamos identificar las problemáticas de la
+                        ciudad aportando soluciones creativas e innovadoras!!</h3>
+                </div>
+            </div> -->
             <!-- Talleres Creatorios -->
-            <div class="mdl-grid bg-custom-light vp-100">
+            <div class="mdl-grid bg-custom-light ">
                 <br>
                 <div id="talleres" class="header-title "></div>
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet ">
+                    <h1 style="text-align:center " class="tugsten-semibold ">Talleres Creatorios</h1>
+                </div>
                 <div class="mdl-cell mdl-cell--10-col mdl-cell--10-col-tablet mdl-cell--1-offset-desktop mdl-cell--0-offset-phone
-                mdl-cell--0-offset-tablet text-center va-center">
-                    <div>
-                        <h1 style="text-align:center " class="tugsten-semibold">Talleres Creatorios</h1>
-                        <p style="text-align:justify " class="avenir-light ">El taller Creatorio es una jornada
-                            dedicada a
-                            buscar
-                            soluciones para construir una mejor ciudad haciendo reales tus anhelos, de la mano de otros
-                            que
-                            también
-                            quieren transmitirle al mundo el amor que sienten por Cali, de este espacio saldrán las mas
-                            de
-                            100
-                            acciones que cambiaran el espacio publico, o aumentaran la civismo, pero también nos pueden
-                            conectar
-                            con una vida mas sana, o un ambiente mas puro, todo esto el próximo 20 de octubre!!</p>
-                        <!-- Asiste al próximo taller -->
-                        <br>
-                        <a href="https://www.facebook.com/100en1diacali " target="_blank " style="font-size:20px;
-                                "
-                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-secondary white-text tugsten-semibold
-                                space-letter ">
-                            Asiste a nuestro próximo taller
-                        </a>
-                    </div>
+                mdl-cell--0-offset-tablet ">
+                    <p style="text-align:justify " class="avenir-light ">El taller Creatorio es una jornada dedicada a
+                        buscar
+                        soluciones para construir una mejor ciudad haciendo reales tus anhelos, de la mano de otros que
+                        también
+                        quieren transmitirle al mundo el amor que sienten por Cali, de este espacio saldrán las mas de
+                        100
+                        acciones que cambiaran el espacio publico, o aumentaran la civismo, pero también nos pueden
+                        conectar
+                        con una vida mas sana, o un ambiente mas puro, todo esto el próximo 20 de octubre!!</p>
+                </div>
+            </div>
+            <!-- Asiste al próximo taller -->
+            <div class="mdl-grid bg-custom-light ">
+                <br>
+                <div style="text-align:center" class="mdl-cell mdl-cell--10-col-desktop mdl-cell--1-offset-desktop mdl-cell--12-col-tablet ">
+                    <a href="https://www.facebook.com/100en1diacali " target="_blank " style="font-size:20px;
+                            "
+                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-secondary white-text tugsten-semibold
+                            space-letter ">
+                        Asiste a nuestro próximo taller
+                    </a>
                 </div>
             </div>
             <!-- equipo motor -->
             <div class="mdl-grid">
                 <br>
                 <div id="motor" class="header-title "></div>
-                <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet va-center">
+                <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--5-col mdl-cell--6-col-tablet ">
                     <img style="border-radius:8px" width="100%" src="images/motor.png" alt="">
                 </div>
                 <div class="mdl-cell mdl-cell--1-offset-desktop mdl-cell--4-col mdl-cell--6-col-tablet ">
@@ -239,57 +257,24 @@
     </div>
     </main>
     </div>
-    <dialog style="width:324px; border-radius: 5px;" class="mdl-dialog">
-        <div class="mdl-dialog__content">
-            <img width="324px" src="images/pintalave.jpg" alt="">
-            <h3 class="misses primary-text">#PintalaVé</h3>
-            <p class="avenir-light dark-text" style="font-size:14px; margin-bottom:0px;">
-                Ayudanos descargando una de las seis plantillas de las seis letras, decorándola y subiendo un video a
-                tus redes sociales.
-            </p>
-        </div>
-        <div class="mdl-dialog__actions">
-            <button class="mdl-button mdl-js-ripple-effect tugsten-semibold
-            space-letter close">Cerrar</button>
-            <a href="pintalave.html" class="mdl-button mdl-js-ripple-effect bg-accent-dark white-text tugsten-semibold
-            space-letter">Participa!</a>
-        </div>
-    </dialog>
     <!-- Local -->
     <script defer src="/js/material.min.js "></script>
     <script type="text/javascript " src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js "></script>
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-        crossorigin=""></script>
     <script type="text/javascript " src="js/jquery.downCount.js "></script>
     <!-- Cuenta Regresiva -->
     <script class="source " type="text/javascript ">
         $('.countdown').downCount({
-            date: '10/20/2018 07:00:00',
-            offset: -5
+            date: '10/20/2018 00:00:00',
+            offset: +10
         }, function () {
             alert('Llegó en Gran Día!!');
         });
     </script>
     <!--Enviar correo-->
     <script>
-        // Altura viewport
         var altura = $(window).height();
         var navbar = $('.mdl-layout__header-row').height();
         $('.vp-100').height(altura - navbar);
-        // Modal
-        var dialog = document.querySelector('dialog');
-        var showDialogButton = document.querySelector('#show-dialog');
-        if (!dialog.showModal) {
-            dialogPolyfill.registerDialog(dialog);
-        }
-        $(window).load(function () {
-            dialog.showModal();
-        });
-        dialog.querySelector('.close').addEventListener('click', function () {
-            dialog.close();
-        });
-
         $("#enviar").click(function () {
             if ($("#nombre").val() == "" || $("#email").val() == "" || $("#mensaje").val() == "") {
                 swal('¡Hay campos vacios!', 'Los campos nombre, correo electrónico y mensaje, son obligatorios.', 'info');
@@ -323,6 +308,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Google maps -->
     <script src="js/mapa.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyDQpjsjZG2dwx9Xz6_KthNMiZRrgpcECxY&callback=initialize"></script>
 </body>
 
 </html>

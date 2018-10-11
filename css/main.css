@@ -79,7 +79,7 @@ h1.mdl-layout__title.tugsten-semibold.sidebar span {
     color: #0081AC;
 }
 
-.mdl-layout__subtitle.beyond {
+.mdl-layout__subtitle.misses {
     margin: 0;
     margin-bottom: 16px;
     font-size: 24px;
@@ -199,7 +199,6 @@ footer>div>h4.tugsten-medium {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 /*  */
 
 .hashtag {
@@ -227,6 +226,7 @@ div.hashtag-container {
     /* box-shadow: 0px 4px 18px 1px rgba(0,0,0,0.7); */
     padding: 16px;
 }
+
 a.mdl-navigation__link.selected {
     color: #ff5d19 !important;
 }
@@ -236,9 +236,28 @@ a.mdl-navigation__link.selected {
 div.banner {
     position: relative;
     text-align: center;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.banner-2 {
+    position: relative;
+    text-align: center;
     background-image: url(../images/global.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+div.banner-3 {
+    position: relative;
+    text-align: center;
+    background-image: url(../images/banner-pintalave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div.banner div.banner-overlay {
@@ -299,13 +318,15 @@ h5.footer-secondary {
 /* Square cards */
 
 .demo-card-square.mdl-card {
-    width: 320px;
-    height: 320px;
+    width:100%;
+    height: auto;
+    margin: 8px;
 }
 
 .demo-card-square>.mdl-card__title {
-    color: #fff;
-    background: url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+    background: url('../descargas/m.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Cuenta Regresiva */
@@ -366,32 +387,52 @@ ul.countdown li p {
 .mdl-textfield__label:after {
     background-color: #0081AC !important;
 }
+
 .mdl-textfield {
     width: 400px !important;
 }
+
 /* swal alert */
+
 .swal-title {
     font-family: 'Tungsten-Semibold';
     font-size: 35px;
 }
+
 .swal-text {
     font-family: 'Avenir-Medium';
     font-size: 16px;
     text-align: center;
 }
+
 .swal-button {
     font-family: 'Tungsten-Semibold';
     font-size: 20px;
     background: #ff5d19;
 }
 
+.mdl-dialog__content {
+    padding: 0 !important;
+}
+
+dialog::backdrop {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 /* Parallax */
+
 .parallax {
     background-image: url("../images/banner-tienda.jpeg");
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 }
+
 .img-card {
     width: 100%;
     padding: 0;
@@ -399,17 +440,44 @@ ul.countdown li p {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
 .card-content {
     padding: 16px;
 }
+
 .card-text * {
     margin: 0;
 }
+
 .card-title span {
     float: left;
 }
+
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 2px 5px 5px #ccc;
+}
+
+.va-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+p.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 13px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    font-size: 10px;
 }
